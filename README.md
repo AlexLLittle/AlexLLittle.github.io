@@ -8,7 +8,7 @@
 
 ## ***In Class Assignments***
 
-- ICA1
+- [ICA1](https://docs.google.com/document/d/1JDSEwtEvC0Of6RxEOlvZQrHjNrTnNo5DohYlHaWtuCg/edit)
 * ICA2
 + ICA3
 - ICA4
