@@ -9,7 +9,7 @@
 ## ***In Class Assignments***
 
 - [ICA1](https://docs.google.com/document/d/1JDSEwtEvC0Of6RxEOlvZQrHjNrTnNo5DohYlHaWtuCg/edit)
-* ICA2
+* [ICA2](https://docs.google.com/document/d/1yCxQrP3VeUR6NwKcRzrraKp-uCtOgLxP9woE0hUMtiI/edit?usp=sharing)
 + ICA3
 - ICA4
 * ICA5
