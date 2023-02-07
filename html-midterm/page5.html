@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 5</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="/html-midterm/page1.html">Page 1</a>
+      <span> | </span>
+      <a href="/html-midterm/page2.html">Page 2</a>
+      <span> | </span>
+      <a href="/html-midterm/page3.html">Page 3</a>
+      <span> | </span>
+      <a href="/html-midterm/page4.html">Page 4</a>
+      <span> | </span>
+      <a href="/html-midterm/page5.html">Page 5</a>
+      <span> | </span>
+    </div>
+    <h1>What Alex fixed</h1>
+    <h2>Page 1 errors</h2>
+    <ol>
+      <li>Line 1, no !DOCTYPE html: I added that in.</li>
+      <li>
+        Line 80, closing em tag was not completed: fixed the em closing tag to
+        read "/em" and not "e"
+      </li>
+      <li>
+        Line 32, H2 after H3 tag: fixed by switching the H2 and H3 tags around
+      </li>
+      <li>
+        Line 81, p tag has unclosed elements: fixed with issue 2 in line 80.
+        That was the open tag.
+      </li>
+      <li>Added language data</li>
+    </ol>
+    <p>No errors shown in w3 Validator</p>
+    <h2>Page 2 errors</h2>
+    <ol>
+      <li>
+        Line 27, inclomplete b tag: fixed the closing tag by filling the empty
+        tag with /b
+      </li>
+      <li>
+        Line 53, had the b tag inheriting the h2 tag instead of the other way
+        around: I fixed by putting the b tag inside the h2 tag
+      </li>
+      <li>
+        Line 74, unlike all the other headers line 76 used the h6 with no b tag,
+        "interior" is also bigger than all other headers besides the h1: I fixed
+        this inconsistency and made the headers with a line under them h2, and
+        the headers inbetween paragraphs h3
+      </li>
+      <li>
+        Line 57, spaces are not allowed in links and the link contained spaces:
+        I fixed this by removing the spaces in the link.
+      </li>
+    </ol>
+    <p>No errors shown in w3 Validator</p>
+    <h2>Page 3 errors</h2>
+    <ol>
+      <li>
+        Line 53, the list tag was put in wrong, just as l, not li: fixed by
+        correcting the incorrect tag
+      </li>
+      <li>
+        Line 82, the closing tag of that part of the table was missing its
+        contents: Fixed by added the td to the closing tag completing it
+      </li>
+      <li>
+        Line 98, one of the table columns was outside of the tr tag: Fixed by
+        moving the td emelent a few lines down inside of the tr tag.
+      </li>
+      <li>
+        The Table, the placement of the td elements within the tr elements was
+        messed up casuing some rows to have more columns that others and the
+        data to be hard to read: This was fixed by making sure all rows had
+        three sets of data (first name, last name, age) and nothing else. Also
+        in addition the name Zapata used the table header tag instead of the
+        table column tag causing it to look wrong. That was fixed too.
+      </li>
+    </ol>
+    <p>No errors shown in w3 Validator</p>
+    <h2>Page 4 errors</h2>
+    <ol>
+      <li>Line 1, no !DOCTYPE html: I added that in.</li>
+      <li>
+        Throughout, none of the images had alts: I went in and added alts to
+        every image
+      </li>
+      <li>
+        The pictures were all in the wrong place in the table: I just moved
+        around the images to the correct grouping to fix this
+      </li>
+      <li>
+        Two of the images were missing the td tag meaning there were not in the
+        table: Fixed by adding the tag so they appear in the table.
+      </li>
+    </ol>
+    <p>No errors shown in w3 Validator</p>
+    <h2>Page 5 errors</h2>
+    <p>Phew! None here!</p>
+  </body>
+</html>
