@@ -1,43 +1,105 @@
 /* General styles - put these straight into your stylesheet */
 body {
     margin: 0;
-  }
-  
-  html {
+}
+
+html {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
     background-color: #ccc;
-  }
-  
-  /* Selectors to be matched up with rulesets */
-  
-  /* .card article img
+}
+
+/* Selectors to be matched up with rulesets */
+
+/* .card article img
   .card footer
   .card header
   .card */
-  
-  /* Rulesets to be matched up with selectors */
-  
-  .card {
+
+/* Rulesets to be matched up with selectors */
+
+.card {
     width: 35em;
     height: 22em;
     margin: 5em auto;
     background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
-  }
-  
-  .card header {
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+}
+
+.card header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
     border-radius: 1.5em 1.5em 0 0;
-  }
-  
-  .card footer {
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+}
+
+.card footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
     border-radius: 0 0 1.5em 1.5em;
-  }
-  
-  .card article img{
+}
+
+
+.card article img {
     max-height: 100%;
+    max-width: 40%;
     float: right;
-  } 
+}
+
+.headandfoot {
+    height: 3em;
+    padding: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+p {
+    margin: 0;
+}
+
+footer p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+}
+
+article {
+    height: 12em;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+article p {
+    padding: 1em;
+    color: white;
+}
+
+.card2electricboogaloo {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: chartreuse;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+}
+
+.card2electricboogaloo header {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.card2electricboogaloo footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+
+.card2electricboogaloo article img {
+    max-height: 100%;
+    max-width: 40%;
+    float: right;
+}
+
+.helpme {
+    color:black
+}
