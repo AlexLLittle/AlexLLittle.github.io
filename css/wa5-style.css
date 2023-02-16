@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  .firstimage {
+    margin: 0;
+    position: absolute;
+    top: 12mm;
+    left: 80mm;
+    width: 128em;
+    height: 128em;
+    padding: 5em 0;
+    background: white;
+  }
+
+  .breakingnews {
+    margin: 0;
+    position: absolute;
+    top: 12mm;
+    left: 80mm;
+    width: 128em;
+    height: 128em;
+    padding: 5em 0;
+    /* background: white; */
+  }
+    .newslogo {
+        margin: 0;
+        position: absolute;
+        top: 12mm;
+        left: 80mm;
+        width: 128em;
+        height: 128em;
+        padding: 5em 0;
+  }
+  
+  .thefinalpart {
+    margin: 0;
+    position: absolute;
+    top: 12mm;
+    left: 80mm;
+    width: 128em;
+    height: 128em;
+    padding: 5em 0;
+  }
+  
+
+  
+
+  
