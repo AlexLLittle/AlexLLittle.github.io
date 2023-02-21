@@ -7,6 +7,19 @@ body{
     display:flex;
     background-color: orangered;
 }
+
+#flex-child1{
+    order: 3;  
+}
+#flex-child2{
+    order: 4;  
+}
+#flex-child3{
+    order: 2;  
+}
+#flex-child4{
+    order: 1;  
+}
 #flex-parent p{
     padding:5vw;
 }
@@ -14,6 +27,8 @@ body{
 
 #grid-parent{
     display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px ;
 }
 
 #grid-parent h1{
@@ -23,9 +38,9 @@ body{
     
 }
 #no0{
-
+    grid-template-columns: 200px;
 }
-#no1{
+/* #no1{
 
 }
 #no2{
@@ -51,4 +66,4 @@ body{
 }
 #no9{
 
-}
+} */

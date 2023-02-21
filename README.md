@@ -14,7 +14,9 @@
 + [ICA3 part b](https://alexllittle.github.io/ica3-part2/assets/index.html)
 - [ICA4](https://alexllittle.github.io/ica/ica4.html)
 * [ICA5](https://alexllittle.github.io/ica/ica5/ica5.html)
-+ ICA6
++ [ICA6 part 1](https://alexllittle.github.io/ica/ica6/ica6-part1.html)
++ [ICA6 part 2](https://alexllittle.github.io/ica/ica6/ica6-part2.html)
++ [ICA6 part 3](https://alexllittle.github.io/ica/ica6/ica6-part3.html)
 - ICA7
 * ICA8
 + ICA9
