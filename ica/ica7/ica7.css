@@ -1,0 +1,67 @@
+body{
+    background-color: khaki;
+}
+#box1{
+    width: 25vw;
+    height: 20vh;
+    background-color: indianred;
+}
+#box1:hover{
+    background-color: purple;
+}
+
+#box2{
+    width: 25vw;
+    height:20vh;
+    position: relative;
+    background-color: orangered;
+    animation-duration: 5s, 5s, 15s;
+    animation-delay: 0s, 5s, 10s;
+    animation-name: box2move, TwoBox2move, permamove;
+    animation-iteration-count: 1, 1, infinite;
+    animation-direction: alternate, alternate, alternate;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+#box2:hover {
+  background-color: #6508de;
+  width: 500px;
+  height: 500px;
+  font-size: 0px;
+}
+
+
+@keyframes box2move{
+from {
+    margin-left: 100%;
+    width: 25vw;
+    margin-top: 10%;
+}
+to{
+    margin-left: 0%;
+    width: 25vw;
+    margin-top: 10%;
+}   
+}
+@keyframes TwoBox2move{
+    from {
+        margin-top: 10%;
+        width: 25vw;
+    }
+    to{
+        margin-top: 0%;
+        width: 25vw;
+    } 
+}
+@keyframes permamove{
+    from {
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 25vw;
+    }
+    to{
+        margin-top: 0%;
+        margin-left: 70%;
+        width: 25vw;
+    } 
+}
