@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: chartreuse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+    color: yellow;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: maroon;
+    transition: width 7s, height 9s, background-color 5s, transform 9s;
+}
+nav:hover {
+    width: 500;
+    height:69vh;
+    background-color: blue;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+h1:hover {
+
+    font-size: 500px;
+  }
+#red-ball{
+    background-color: papayawhip;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:0;
+}
