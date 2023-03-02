@@ -35,7 +35,7 @@
 - [WA4](https://alexllittle.github.io/wa/wa4.html)
 * [WA5](https://alexllittle.github.io/wa/wa5.html)
 + [WA6](https://alexllittle.github.io/wa/wa6/index.html)
-- [WA7](https://alexllittle.github.io/wa/wa7/index.html)
+- [WA7](https://alexllittle.github.io/wa/week7/index.html)
 * WA8
 + WA9
 - WA10
