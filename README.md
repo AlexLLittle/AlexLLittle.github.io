@@ -19,8 +19,7 @@
 - [ICA6 part 2](https://alexllittle.github.io/ica/ica6/ica6-part2.html)
 + [ICA6 part 3](https://alexllittle.github.io/ica/ica6/ica6-part3.html)
 - [ICA7](https://alexllittle.github.io/ica/ica7/ica7.html)
-* ICA8
-+ ICA9
++ [ICA9](https://alexllittle.github.io/ica/ica9.html)
 - ICA10
 * ICA11
 + ICA12

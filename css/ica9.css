@@ -1,0 +1,22 @@
+#button {
+    border-radius: 20px;
+    text-align: center;
+    background-color: beige;
+    border: 5px solid darkmagenta;
+    padding: 5px;
+    width: 250px;
+    font-size: 50px;
+}
+
+#button2 {
+    border-radius: 20px;
+    text-align: center;
+    background-color: beige;
+    border: 5px solid darkmagenta;
+    padding: 5px;
+    width: 250px;
+    font-size: 50px;
+}
+.weezer {
+    position: absolute;
+}
