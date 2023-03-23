@@ -8,11 +8,11 @@ const overlay = document.querySelector('.overlay');
 const images = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg']
 /* Declaring the alternative text for each image file */
 const alts = { // since the alts relate to images use colon adding them to the images
-    'pic1.jpg' :'Closeup of a human eye',
-    'pic2.jpg' : 'I actually do not know, what is this Anthony?',
-    'pic3.jpg' : 'Some flowers on something SMH my head' ,
-    'pic4.jpg' : 'Egyptians of the ancient picture variety',
-    'pic5.jpg' : 'A fly made out of butter'
+    'pic1.jpg' :'HA YOU JUST GOT WEEZED',
+    'pic2.jpg' : 'im a bad bad man',
+    'pic3.jpg' : 'i have a bit of a full moon fever' ,
+    'pic4.jpg' : 'my soul is made of rubber',
+    'pic5.jpg' : 'me and my passed away dog.'
 
 }
 /* Looping through images */
