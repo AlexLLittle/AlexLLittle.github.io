@@ -41,4 +41,4 @@ function showAnswer(quote) { // new function to display quote. takes a quote as 
     answerText.textContent = quote; // setting the value of the parameter equal to the variable quoteText
 }
 
-qetQuote();
+getQuote();
