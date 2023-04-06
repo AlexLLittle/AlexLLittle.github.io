@@ -1,0 +1,107 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: rgb(14, 160, 245);
+  }
+  
+  .app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  header {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid chartreuse;
+    color: white;
+    font-family: 'Comic Sans', Arial, sans-serif;
+  }
+  
+  .characters {
+    padding: 20px 50px;
+    min-height: 200px;
+  }
+  
+  .character-text {
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Comic Sans', Arial, sans-serif;
+  }
+  .answer-text {
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    font-family: 'Comic Sans', Arial, sans-serif;
+  } 
+  .controls {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  .button {
+    display: block;
+    color: rgb(186, 199, 12);
+    border-radius: 4px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  .twitter {
+    background-color: #07611f;
+    text-decoration: none;
+  }
+  
+  .twitter:hover {
+    background-color: #07611f;
+  }
+  
+  .new-character {
+    background-color: #6d3b0e;
+    margin-bottom: 15px;
+  }
+  
+  .new-character:hover {
+    background-color: #4A2B0F;
+  }
+  
+  .new-character:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  #js-answer-text {
+background-color: black;
+  }
+  @media screen and (max-width: 600px) {
+    .app {
+      width: 100%;
+    }
+    .character-text {
+      font-size: 18px;
+    }
+  }
