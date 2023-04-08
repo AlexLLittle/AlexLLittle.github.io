@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSON: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <section class="preview"></section>
+  </body>
+  <script>
+        // i am going to put comments to make sure i understand everything
+        const section = document.querySelector('section');
+
+        let para1 = document.createElement('p'); // creates p elements
+        let para2 = document.createElement('p');
+        let motherInfo = 'The mother cats are called '; // string var
+        let kittenInfo; // empty. equivelnt to setting var = 0 in python?
+        const requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/tasks/json/sample.json';
+        // the url of the json
+
+        fetch(requestURL) // retrieves url, needs to be told what to do with it
+        .then(response => response.text()) // what it gets is stored in response
+        .then(text => displayCatInfo(text)) // putting the text into the function
+
+        function displayCatInfo(catString) { // function with parameter
+          let total = 0; // counter var for total cats, will have another
+          let male = 0;
+
+          const cats = JSON.parse(catString); // take what was passed in and parse it
+
+    // want a for loop to go through all the mothers
+        for (let i = 0; i < cats.length; i++) {
+            // want a nested loop to go through the kittens
+            for (const kitten of cats[i].kittens) {
+                total++;// add to the total
+                // we need an if statement for if the cat is male. we can use the gender on the json and string 'm'
+                if (kitten.gender === 'm') {
+                    male++;
+                }
+            }
+        // we now want to add the names of the mother cats to our info list. If statment for the cats that aren't last.
+            if (i < (cats.length -1)) {
+                motherInfo += `${ cats[i].name }, `;
+            }
+            else {
+                motherInfo += `and ${ cats[i].name }.`;
+            }
+        }
+        // lets add the total amount of kittens to the var
+        kittenInfo = `There are ${ total } kittens, ${ male } males, ${ total - male } females.` ;
+
+          para1.textContent = motherInfo; // adds to the p elements
+          para2.textContent = kittenInfo;
+        }
+
+        section.appendChild(para1); // appends the p elements
+        section.appendChild(para2);
+  </script>
+</html>
