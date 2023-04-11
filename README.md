@@ -5,7 +5,7 @@
 
 - [HTML](https://alexllittle.github.io/html-midterm/page5.html)
 * [CSS](https://alexllittle.github.io)
-+ JS
++ [JS](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## ***In Class Assignments***
 
@@ -22,7 +22,7 @@
 + [ICA9](https://alexllittle.github.io/ica/ica9.html)
 - [ICA10](https://alexllittle.github.io/ica/ica10.html)
 * [ICA11](https://alexllittle.github.io/ica/ica11.html)
-+ ICA12
++ [ICA12](https://alexllittle.github.io/ica/ica12.html)
 - ICA13
 * ICA14
 + ICA15
