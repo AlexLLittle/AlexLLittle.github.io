@@ -99,18 +99,5 @@ function loop() {
   }
 
 loop();
-// const testBall = new Ball(100,100,2,2,"red",10);
-// const testBall1 = new Ball(400,238,2,2,"blue",100);
-// const testBall2 = new Ball(700,438,2,2,"aquamarine",500);
 
-// testBall.draw()
-
-// const i = 0;
-// while (i<100) {
-//     testBall.update();
-//     i += 1;
-// }
-
-// testBall1.draw()
-// testBall2.draw()
 
