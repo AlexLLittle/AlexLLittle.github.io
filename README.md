@@ -11,20 +11,20 @@
 
 - [ICA1](https://docs.google.com/document/d/1JDSEwtEvC0Of6RxEOlvZQrHjNrTnNo5DohYlHaWtuCg/edit)
 * [ICA2](https://docs.google.com/document/d/1yCxQrP3VeUR6NwKcRzrraKp-uCtOgLxP9woE0hUMtiI/edit?usp=sharing)
-+ [ICA3 part a](https://alexllittle.github.io/ica/ica3a.html)[ICA3 part b](https://alexllittle.github.io/ica3-part2/assets/index.html)
++ [ICA3 part a](https://alexllittle.github.io/ica/ica3a.html)
++ [ICA3 part b](https://alexllittle.github.io/ica3-part2/assets/index.html)
 - [ICA4](https://alexllittle.github.io/ica/ica4.html)
 * [ICA5](https://alexllittle.github.io/ica/ica5/ica5.html)
 + [ICA6 part 1](https://alexllittle.github.io/ica/ica6/ica6-part1.html)
-[ICA6 part 2](https://alexllittle.github.io/ica/ica6/ica6-part2.html)
-[ICA6 part 3](https://alexllittle.github.io/ica/ica6/ica6-part3.html)
+- [ICA6 part 2](https://alexllittle.github.io/ica/ica6/ica6-part2.html)
+* [ICA6 part 3](https://alexllittle.github.io/ica/ica6/ica6-part3.html)
 - [ICA7](https://alexllittle.github.io/ica/ica7/ica7.html)
 + [ICA9](https://alexllittle.github.io/ica/ica9.html)
 - [ICA10](https://alexllittle.github.io/ica/ica10.html)
 * [ICA11](https://alexllittle.github.io/ica/ica11.html)
 + [ICA12](https://alexllittle.github.io/ica/ica12.html)
-- ICA13
+- [ICA13](https://alexllittle.github.io/wa/wa13.html)
 * ICA14
-+ ICA15
 
 ## ***Weekly Assignments***
 
@@ -41,4 +41,3 @@
 + [WA12](https://alexllittle.github.io/wa/wa12.html)
 - [WA13](https://alexllittle.github.io/wa/wa13.html)
 * WA14
-+ WA15
