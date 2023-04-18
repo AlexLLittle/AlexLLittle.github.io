@@ -97,9 +97,4 @@ console.log(totalClick)
 
 
 
-// const output = document.querySelector('.output');
-// let phone_content = document.querySelector('.phone');
-// button.addEventListener('click', random());
-
-
 
