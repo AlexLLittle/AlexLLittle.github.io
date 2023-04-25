@@ -24,7 +24,7 @@
 * [ICA11](https://alexllittle.github.io/ica/ica11.html)
 + [ICA12](https://alexllittle.github.io/ica/ica12.html)
 - [ICA13](https://alexllittle.github.io/wa/wa13.html)
-* ICA14
+* [ICA14](https://api.mapbox.com/styles/v1/alexllittle/clgwgi2u6004001pp7omkdnsq.html?title=view&access_token=pk.eyJ1IjoiYWxleGxsaXR0bGUiLCJhIjoiY2xndTE0MjVwMGI2YjNkcW1pM2Nrd3BldCJ9.2lEyoC1xrw1u_G-OtdT9Ng&zoomwheel=true&fresh=true#11.7/53.4447/-2.2733)
 
 ## ***Weekly Assignments***
 
