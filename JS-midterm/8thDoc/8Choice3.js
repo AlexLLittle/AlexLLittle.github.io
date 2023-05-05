@@ -6,10 +6,10 @@ const button3 = document.querySelector('.restart_button');
 
 
 function Choice1() {
-    window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice3.html", "_blank";
+    window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice4A.html", "_blank";
 }
 function Choice2() {
-    window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice8.html";
+    window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice4B.html";
 }
 function Restart() {
     window.location.href = "https://alexllittle.github.io/JS-midterm/index.html", "_blank";

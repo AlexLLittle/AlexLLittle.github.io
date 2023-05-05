@@ -6,7 +6,7 @@ const button3 = document.querySelector('.restart_button');
 
 
 function Choice1() {
-    window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice3.html", "_blank";
+    window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice5.html", "_blank";
 }
 function Choice2() {
     window.location.href = "https://alexllittle.github.io/JS-midterm/8thDoc/8Choice8.html";
