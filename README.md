@@ -5,7 +5,7 @@
 
 - [HTML](https://alexllittle.github.io/html-midterm/page5.html)
 * [CSS](https://alexllittle.github.io)
-+ [JS](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
++ [JS](https://alexllittle.github.io/JS-midterm/index.html)
 
 ## ***In Class Assignments***
 

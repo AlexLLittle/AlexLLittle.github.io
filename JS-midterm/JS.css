@@ -1,33 +1,38 @@
 @media only screen and (min-width: 1440px) {
 
     body {
-        background-color: rgb(82, 111, 193);
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        background-color: rgb(139, 161, 222);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
     }
     h1 {
         text-align: center;
-        font-size: 300%;
+        font-size: 350%;
         color: rgb(22, 3, 4);
     }
 
 
     h3 {
         text-align: center;
-        font-size: 200%;
+        font-size: 250%;
         color: rgb(22, 3, 4);
 
     }
-
-p {
+#choicetext{
     text-align: center;
-    font-size: 150%;
+}
+p {
+    /* text-align: center; */
+    font-size: 175%;
     color: rgb(22, 3, 4);
     margin-left: 15%;
     margin-right: 15%;
 
+
 }
+
 button {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
 }
 #choicebuttons {
