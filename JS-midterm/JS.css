@@ -49,12 +49,56 @@ position: relative;
   left: 45%;
   }
 }
+@media only screen and (max-width: 1439px) {
+
+    body {
+        background-color: rgb(139, 161, 222);
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.75;
+    }
+    h1 {
+        text-align: center;
+        font-size: 250%;
+        color: rgb(22, 3, 4);
+    }
 
 
-/* @media only screen and (max-width: 700px) {
+    h3 {
+        text-align: center;
+        font-size: 150%;
+        color: rgb(22, 3, 4);
 
-} */
+    }
+#choicetext{
+    text-align: center;
+}
+p {
+    /* text-align: center; */
+    font-size: 115%;
+    color: rgb(22, 3, 4);
+    margin-left: 15%;
+    margin-right: 15%;
 
-/* @media only screen and (min-width: 700px) and (max-width: 1440px) {
 
-} */
+}
+
+button {
+    font-size: 125%;
+    text-align: center;
+}
+#choicebuttons {
+    display: flex;
+    /* direction: vertical; */
+    justify-content: center;
+  }
+  
+  .Option1, .Option2 {
+    margin-right: 5px;
+  }
+  .restart_button {
+position: relative;
+  bottom: 0;
+  left: 45%;
+  }
+}
+
